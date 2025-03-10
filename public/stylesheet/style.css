@@ -1,5 +1,6 @@
 body{
     height: 100%;
+    font-family: 'Lato', sans-serif;
 }
 
 .navbar{
@@ -8,21 +9,35 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 20%;
+    height: 100px;
+    position: sticky;
+    top: auto;
 }
 
 .whoami{
-    background-color: grey;
+    background-color: #ded7cf;
     width: 30%;
     height: 100%;
     border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .links{
-    background-color: wheat;
+    background-color: white;
     width: 70%;
     height: 100%;
     border: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links p{
+    cursor: pointer;
+    width: 15%;
+    font-size: 20px;
 }
 
 .row{
@@ -34,18 +49,16 @@ body{
 }
 
 .image-box{
-    background-color: #E0E0E0;
+    background-color: #E7E6E4;
     width: 45%;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
 }
 
 .bottom{
     position: absolute;
     bottom: 5px;
-}
-
-img {
-    max-width: 100%;
 }
 
 .about-me{
@@ -55,12 +68,15 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     position: relative;
 }
 
+.about-me p{
+    font-size: 15px;
+}
+
 .my-studio{
-    background-color: #E0E0E0;
+    background-color: #E7E6E4;
     width: 25%;
     border: 2px solid black;
     display: flex;
@@ -79,7 +95,7 @@ img {
 }
 
 .experience{
-    background-color: #E0E0E0;
+    background-color: #E7E6E4;
     width: 35%;
     border: 2px solid black;
     display: flex;
@@ -97,11 +113,10 @@ img {
     flex-direction: column;
     position: relative;
     align-items: center;
-    justify-content: center;
 }
 
 .my-edu{
-    background-color: #E0E0E0;
+    background-color: #E7E6E4;
     width: 40%;
     border: 2px solid black;
     display: flex;
@@ -121,7 +136,7 @@ img {
 }
 
 .my-contributor{
-    background-color: #E0E0E0;
+    background-color: #E7E6E4;
     width: 30%;
     border: 2px solid black;
     display: flex;
@@ -141,12 +156,13 @@ img {
 }
 
 .contact-me{
-    background-color: #E0E0E0;
+    background-color: #E7E6E4;
     width: 33%;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -156,6 +172,11 @@ img {
     border: 2px solid black;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.skill label{
+    font-size: 30px;
 }
