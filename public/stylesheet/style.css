@@ -82,6 +82,7 @@ body{
     border: 2px solid black;
     display: flex;
     flex-direction: column;
+    align-items: center;
     position: relative;
 }
 
@@ -92,6 +93,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -123,6 +125,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -133,6 +136,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -143,6 +147,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -153,6 +158,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 
