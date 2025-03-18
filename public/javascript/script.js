@@ -22,3 +22,28 @@ function startAutoPlay() {
 }
 
 startAutoPlay();
+
+let currentJob = 1;
+
+function toggleExperience() {
+    let job1 = document.getElementById("job1");
+    let job2 = document.getElementById("job2");
+	let job3 = document.getElementById("job3");
+
+    if (currentJob === 1) {
+        job1.style.display = "none";
+        job2.style.display = "block";
+		job3.style.display = "none";
+        currentJob = 2;
+    } else if (currentJob === 2) {
+        job1.style.display = "none";
+        job2.style.display = "none";
+		job3.style.display = "block";
+        currentJob = 3;
+    } else {
+		job1.style.display = "block";
+        job2.style.display = "none";
+		job3.style.display = "none";
+        currentJob = 1;
+	}
+}

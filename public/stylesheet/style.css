@@ -108,6 +108,31 @@ body{
     position: relative;
 }
 
+.experience-inside{
+    background-color: #fff;
+    padding-left: 5%;
+    height: 40%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border: solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 20px 10px;
+    background-color: lightgray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
+
 .my-pet{
     background-color: white;
     width: 35%;
