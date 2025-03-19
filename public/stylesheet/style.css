@@ -198,6 +198,36 @@ button:hover {
     position: relative;
 }
 
+.logo-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 列 */
+    grid-template-rows: repeat(2, 1fr); /* 2 行 */
+    gap: 20px; /* 控制 logo 之間的間距 */
+    width: 300px; /* 可根據需要調整容器大小 */
+    margin: auto; /* 置中 */
+    text-align: center;
+}
+
+.logo-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5; /* 背景色，讓 Logo 更清楚 */
+    padding: 10px; /* 內邊距確保點擊範圍足夠 */
+    border-radius: 10px; /* 圓角設計 */
+    transition: transform 0.2s ease-in-out;
+}
+
+.logo-container a:hover {
+    transform: scale(1.1); /* 滑鼠懸停時放大 */
+}
+
+.logo-container img {
+    width: 80px; /* 根據 Logo 尺寸調整 */
+    height: auto;
+}
+
+
 .skill{
     background-color: white;
     width: 33%;
