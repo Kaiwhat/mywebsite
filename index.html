@@ -27,7 +27,7 @@
         <div class="about-me">
             <h2>Hi I'm Lucas</h2>
             <p>I'm a student, an engineer,</p>
-            <p>an Emergency Medical Technician (EMT).</p>
+            <p>an Emergency Medical Technician (EMT)<span>&#10010;</span></p>
             <p>I see myself as a healer.</p>
             <p>Whether as a responder in medical emergencies,</p>
             <p>or simply as a friend.</p>
@@ -51,30 +51,37 @@
             <h2 class="bottom">03_View my project</h2>
         </div>
         <div class="experience">
-            <div class="experience-inside">
-                <div id="job1" class="job">
-                    <p>1. 資訊技術專員</p>
-                    <p>2023 - 2024</p>
-                    <p>職引國際有限公司</p>
+            <div style="display: flex; width: 90%; height: 90%; align-items: center; justify-content: center;">
+                <button onclick="togglePrev()"><span>&#10094;</span></button>
+                <div class="experience-inside">
+                    <div id="job1" class="job">
+                        <p>1. 資訊技術專員</p>
+                        <p>2023 - 2024</p>
+                        <p>職引國際有限公司</p>
+                    </div>
+                    <div id="job2" class="job" style="display: none;">
+                        <p>2. Teaching Assistant</p>
+                        <p>2024 - present</p>
+                        <p>暨南大學科技學院 USR</p>
+                    </div>
+                    <div id="job3" class="job" style="display: none;">
+                        <p>3. Teaching Assistant</p>
+                        <p>2025 - present</p>
+                        <p>企業資訊網路</p>
+                    </div>
+                    <div id="job4" class="job" style="display: none;">
+                        <p>4. Teaching Assistant</p>
+                        <p>2025 - present</p>
+                        <p>專題討論 (seminar) </p>
+                    </div>
                 </div>
-                <div id="job2" class="job" style="display: none;">
-                    <p>2. 計畫助理</p>
-                    <p>2024 - present</p>
-                    <p>暨南大學科技學院 USR</p>
-                </div>
-                <div id="job3" class="job" style="display: none;">
-                    <p>3. Teaching Assistant</p>
-                    <p>2025 - present</p>
-                    <p>企業資訊網路</p>
-                    <p>專題討論 (seminar) </p>
-                </div>
-                <button onclick="toggleExperience()">></button>
+                <button onclick="toggleNext()"><span>&#10095;</span></button>
             </div>
             <h2 class="bottom">04_Experience</h2>
         </div>
         <div class="my-pet">
             <img id="main_image" src="/public/images/image1.jpg" alt="" style="max-width: 90%;padding-top: 5%">
-            <h2 class="bottom">05_My kitty, Thanos</h2>
+            <h2 class="bottom"><span>&#9886;</span>05_Thanos<span>&#9887;</span></h2>
         </div>
     </div>
     <div class="row">

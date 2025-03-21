@@ -4,11 +4,12 @@ const images = [
 	"/public/images/image3.jpg",
 	"/public/images/image4.jpg",
 	"/public/images/image5.jpg",
+	"/public/images/image6.jpg"
 ];
 let currentimg = 0;
 
 const changeimg = (num) => {
-	currentimg = (currentimg + num + 5) % 5;
+	currentimg = (currentimg + num + 6) % 6;
 	document.getElementById("main_image").src = images[currentimg];
 };
 
@@ -23,27 +24,42 @@ function startAutoPlay() {
 
 startAutoPlay();
 
-let currentJob = 1;
+let currentJob = 0;
 
-function toggleExperience() {
-    let job1 = document.getElementById("job1");
-    let job2 = document.getElementById("job2");
+function togglePrev() {
+	currentJob = (currentJob+3)%4;
+	SetState();
+}
+
+function toggleNext() {
+	currentJob = (currentJob+1)%4;
+	SetState();
+}
+
+function SetState() {
+	let job1 = document.getElementById("job1");
+	let job2 = document.getElementById("job2");
 	let job3 = document.getElementById("job3");
-
-    if (currentJob === 1) {
-        job1.style.display = "none";
-        job2.style.display = "block";
+	let job4 = document.getElementById("job4");
+	if (currentJob === 1) {
+		job1.style.display = "none";
+		job2.style.display = "block";
 		job3.style.display = "none";
-        currentJob = 2;
-    } else if (currentJob === 2) {
-        job1.style.display = "none";
-        job2.style.display = "none";
+		job4.style.display = "none";
+	} else if (currentJob === 2) {
+		job1.style.display = "none";
+		job2.style.display = "none";
 		job3.style.display = "block";
-        currentJob = 3;
-    } else {
-		job1.style.display = "block";
-        job2.style.display = "none";
+		job4.style.display = "none";
+	} else if (currentJob === 3) {
+		job1.style.display = "none";
+		job2.style.display = "none";
 		job3.style.display = "none";
-        currentJob = 1;
+		job4.style.display = "block";
+	} else {
+		job1.style.display = "block";
+		job2.style.display = "none";
+		job3.style.display = "none";
+		job4.style.display = "none";
 	}
 }

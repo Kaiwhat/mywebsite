@@ -98,7 +98,7 @@ body{
 }
 
 .experience{
-    background-color: #E7E6E4;
+    background-color: #ded7cf;
     width: 35%;
     border: 2px solid black;
     display: flex;
@@ -109,28 +109,30 @@ body{
 }
 
 .experience-inside{
-    background-color: #fff;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
     padding-left: 5%;
-    height: 40%;
+    height: 80%;
     width: 80%;
     display: flex;
     justify-content: space-between;
-    border: solid black;
-    border-radius: 15px;
     display: flex;
     align-items: center;
 }
 
 button {
     padding: 20px 10px;
-    background-color: lightgray;
-    color: white;
+    background-color: #ded7cf;
+    color: black;
     border: none;
     cursor: pointer;
+    height: 25%;
+    font-size: 35px;
 }
 
 button:hover {
-    background-color: gray;
+    background-color: rgb(186, 186, 186);
 }
 
 .my-pet{
