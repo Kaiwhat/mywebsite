@@ -1,0 +1,582 @@
+{
+  "analyticsCode": "",
+  "basics": {
+    "name": "Kaiwha",
+    "label": "Software Developer",
+    "animated_main_label": "developer",
+    "animated_secondary_initial_label": "software",
+    "animated_secondary_final_label": "front_end",
+    "image": "/pfp.webp",
+    "email": "a0903613834@gmail.com",
+    "url": "https://www.linkedin.com/in/arielfalcon/",
+    "summary": "I'm a student, an engineer, an Emergency Medical Technician (EMT)✚. I see myself as a healer. Whether as a responder in medical emergencies, or simply as a friend.",
+    "theme": "red",
+    "location": {
+      "address": "國立暨南國際大學",
+      "city": "南投",
+      "countryCode": "TW",
+      "region": "臺灣"
+    },
+    "profiles": [
+      {
+        "network": "Instagram",
+        "icon": "ri:instagram-fill",
+        "color": "#E4405F",
+        "username": "@arielGfalcon",
+        "url": "https://www.instagram.com/wukaihe/"
+      },
+      {
+        "network": "telegram",
+        "icon": "ri:telegram-fill",
+        "color": "#0066C2",
+        "username": "Ariel Falcón",
+        "url": "https://t.me/kaiwha"
+      },
+      {
+        "network": "GitHub",
+        "icon": "mdi:github",
+        "color": "#000000",
+        "username": "ArielFalcon",
+        "url": "https://github.com/Kaiwhat"
+      },
+      {
+        "network": "Email",
+        "icon": "ri:mail-fill",
+        "color": "#D44638",
+        "username": "Ariel González Falcón",
+        "url": "mailto:a0903613834@gmail.com"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "國立暨南國際大學",
+      "url": "",
+      "area": "Information Management",
+      "studyType": "Full-time student",
+      "startDate": "2022-09-01",
+      "endDate": "2026-06-01"
+    },
+    {
+      "institution": "新北市立清水高級中學",
+      "url": "",
+      "area": "General Subjects",
+      "studyType": "Full-time student",
+      "startDate": "2019-9-01",
+      "endDate": "2022-6-01"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "U-Start 創新創業計畫 - NTD 500,000",
+      "date": "2024-05-01",
+      "url": "https://www.im.ncnu.edu.tw/2024/05/02/%E6%81%AD%E8%B3%80%E6%9C%AC%E7%B3%BB%E5%BC%B5%E4%B8%AD%E6%BC%A2%E3%80%81%E7%B0%A1%E9%BD%8A%E5%90%9B%E3%80%81%E5%90%B3%E6%A5%B7%E8%B3%80%E6%A6%AE%E7%8D%B2%E6%95%99%E8%82%B2%E9%83%A8%E3%80%8Cu-start/",
+      "issuer": "教育部青年發展署, 教育部, 臺灣"
+    },
+    {
+      "name": "Emergency Medical Technician--one",
+      "date": "2025-02-13",
+      "url": "https://www.wangyingfoundation.org/news-detail54-0.htm",
+      "issuer": "財團法人旺英基金會, 臺灣"
+    }
+  ],
+  "attendee": [
+    {
+      "name": "全國資安社團暨社群幹部研習營",
+      "date": "2023-08-21",
+      "url": "https://www.im.ncnu.edu.tw/2024/05/02/%E6%81%AD%E8%B3%80%E6%9C%AC%E7%B3%BB%E5%BC%B5%E4%B8%AD%E6%BC%A2%E3%80%81%E7%B0%A1%E9%BD%8A%E5%90%9B%E3%80%81%E5%90%B3%E6%A5%B7%E8%B3%80%E6%A6%AE%E7%8D%B2%E6%95%99%E8%82%B2%E9%83%A8%E3%80%8Cu-start/",
+      "issuer": "教育部資訊安全人才培育計畫, 教育部, 臺灣"
+    },
+    {
+      "name": "全國資安社團暨社群幹部研習營",
+      "date": "2024-08-21",
+      "url": "https://www.wangyingfoundation.org/news-detail54-0.htm",
+      "issuer": "教育部資訊安全人才培育計畫, 教育部, 臺灣"
+    },
+    {
+      "name": "Sitcon 2025 學生計算機年會",
+      "date": "2025-03-08",
+      "url": "https://sitcon.org/2025/",
+      "issuer": "Students’ Information Technology Conference, 臺灣"
+    }
+  ],
+  "contributor": [
+    {
+      "name": "Association for Computing Machinery",
+      "date": "2023-07-13",
+      "url": "",
+      "issuer": "Computer Science and Information Engineering, 國立暨南國際大學, 臺灣"
+    },
+    {
+      "name": "Google Developer Student Club in NCNU",
+      "date": "2023-09-01",
+      "url": "",
+      "issuer": "Google Developer Student Club, 國立暨南國際大學, 臺灣"
+    },
+    {
+      "name": "Google Developer Group on campus NCNU",
+      "date": "2024-09-01",
+      "url": "",
+      "issuer": "Google Developer Group on campus, 國立暨南國際大學, 臺灣"
+    },
+    {
+      "name": "AIS3 x GDG 中區資安體驗營",
+      "date": "2024-10-19",
+      "url": "",
+      "issuer": "Ministry of Education, 臺灣"
+    },
+    {
+      "name": "Google DevFest Taipei 2024",
+      "date": "2024-11-30",
+      "url": "",
+      "issuer": "Google Developer Group Taipei, 臺灣"
+    },
+    {
+      "name": "Google DevFest Taichung 2024",
+      "date": "2024-12-07",
+      "url": "https://gdg.community.dev/events/details/google-gdg-taichung-presents-devfest-taichung-2024/",
+      "issuer": "Google Developer Group Taichung, 臺灣"
+    }
+  ],
+  "technical": [
+    {
+      "name": "Speaker, Topic: Notion 入門課程",
+      "date": "2023-10-01",
+      "url": "",
+      "issuer": "Google Developer Student Club, 國立暨南國際大學, 臺灣"
+    },
+    {
+      "name": "Speaker, Topic: 搬磚套利：虛擬貨幣市場分析",
+      "date": "2023-12-01",
+      "url": "",
+      "issuer": "Google Developer Student Club, 國立暨南國際大學, 臺灣"
+    },
+    {
+      "name": "Speaker, Topic: 如何使用LLM輔助學習和工作",
+      "date": "2024-03-01",
+      "url": "",
+      "issuer": "Google Developer Student Club, 國立暨南國際大學, 臺灣"
+    },
+    {
+      "name": "Core team member",
+      "date": "2024-05-01",
+      "url": "",
+      "issuer": "Google Developer Group on campus NCNU, 國立暨南國際大學, 臺灣"
+    },
+    {
+      "name": "Speaker, Topic: 人工智慧導論",
+      "date": "2024-10-01",
+      "url": "",
+      "issuer": "Google Developer Group on campus NCNU, 國立暨南國際大學, 臺灣"
+    }
+  ],
+  "work": [
+    {
+      "name": "職引國際有限公司 ",
+      "position": "資訊技術專員及共同創辦人",
+      "location_type": "Remote",
+      "location": "TW",
+      "url": "https://info.technews.tw/company/00046754-%E8%81%B7%E5%BC%95%E5%9C%8B%E9%9A%9B%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+      "startDate": "2023-10-03",
+      "endDate": null,
+      "summary": "共同創辦公司，負責業務發展與網站開發。",
+      "highlights": [
+        "Developed a data-intensive Angular project for internal use in the national healthcare system, focusing on managing complex data sets and implementing business logic."
+      ],
+      "responsibilities": [
+        "設計並管理前端專案，同時讓解方具備可擴展性、高效、可維護、高可用架構及易用的使用者體驗。",
+        "與開發者、設計師與專案經理等跨領域團隊緊密合作，交付頂尖品質的解決方案。"
+      ],
+      "achievements": [
+        "共同創辦公司，撰寫並維護公司網站至今。",
+        "共同參與 Ustart 專案，並獲得新台幣 500,000 元的補助。"
+      ],
+      "skills": {
+        "HTML5": "simple-icons:html5",
+        "CSS3": "ri:css3-fill",
+        "TypeScript": "simple-icons:typescript",
+        "Vue": "mdi:vuejs",
+        "Java": "ri:java-line",
+        "NodeJS": "ri:nodejs-line",
+        "Postman": "simple-icons:postman",
+        "i18n": "simple-icons:i18next",
+        "Git": "mdi:git",
+        "GitHub": "mdi:github",
+        "Figma": "simple-icons:figma",
+        "Docker": "simple-icons:docker"
+      }
+    },
+    {
+      "name": "國立暨南國際大學",
+      "position": "教學助理 – 大學社會責任實踐 (USR) 計畫",
+      "location_type": "On-site",
+      "location": "TW",
+      "url": "https://www.linkedin.com/school/%E5%9C%8B%E7%AB%8B%E6%9A%A8%E5%8D%97%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%AD%B8/",
+      "startDate": "2024-09-01",
+      "endDate": null,
+      "summary": "執行大學社會責任實踐 (USR) 計畫，致力於水資源保育與永續發展，並協助促進學生、教師、地方政府與產業之間的跨域合作，以落實永續發展計畫。",
+      "highlights": [
+          "帶領學生參與水資源保育、永續能源實踐及對環境的保護付諸行動。",
+          "協調學生、教師、地方社區與政府機關之間的跨領域與跨部門合作。"
+      ],
+      "responsibilities": [
+          "協助籌辦與水資源永續相關的工作坊、實地考察及社區參與活動。",
+          "設計關於水資源保育與埔里排洪道週邊之經濟發展平衡的討論。"
+      ],
+      "achievements": [
+          "領導不同細索學生組成團隊進行點子發想，探討水資源保育對地方產業的影響。",
+          "組織社區展開計畫，促成學生與地方政府及產業領袖交流，推廣永續水資源管理。",
+          "協助學生透過撰寫提案及產業合作提昇永續發展專案之可行性。"
+      ]
+    },
+    {
+      "name": "國立暨南國際大學",
+      "position": "教學助理 – 企業資訊網路",
+      "location_type": "On-site",
+      "location": "TW",
+      "url": "https://www.linkedin.com/school/%E5%9C%8B%E7%AB%8B%E6%9A%A8%E5%8D%97%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%AD%B8/",
+      "startDate": "2025-02-01",
+      "endDate": null,
+      "summary": "協助教授《企業資訊網路》課程，提供網路基礎設施、網路安全原則及系統管理實作的支援。幫助學生理解網路協議、安全機制與風險管理等核心概念。",
+      "highlights": [
+          "指導學生設定安全的網路基礎設施，包括 Iptables、netfilter 之設定。",
+          "設計並評分實作實驗，涵蓋網路安全、TCP/IP 協定與入侵檢測系統等主題。"
+      ],
+      "responsibilities": [
+          "主持實驗課與教學輔導，講解基礎網路概念與安全措施。",
+          "協助學生排除網路故障，包括封包分析與防火牆設定問題。",
+          "設計並審核關於網路協議、加密技術與網路防禦策略的作業。",
+          "與教授合作強化課程內容，提升實作實驗的學習體驗。"
+      ],
+      "achievements": [
+          "實施互動式網路安全模擬，讓學生練習威脅緩解技術。",
+          "開發真實案例研究，分析網路安全漏洞並應用對應的防禦策略。",
+          "建立知識共享筆記，讓學生能夠合作討論並解決問題與培養 Knowledge Management。"
+      ]
+    },
+    {
+      "name": "國立暨南國際大學",
+      "position": "教學助理 – Seminar in Information Management",
+      "location_type": "On-site",
+      "location": "TW",
+      "url": "https://www.linkedin.com/school/%E5%9C%8B%E7%AB%8B%E6%9A%A8%E5%8D%97%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%AD%B8/",
+      "startDate": "2025-02-01",
+      "endDate": null,
+      "summary": "在一門聚焦於資訊管理領域新興議題的研討課程中，促進學術討論與研究報告呈現。為學生提供研究方法論、批判性思維與有效的報告技巧指導。",
+      "highlights": [
+          "學註學生發想研究主題並結構化報告內容。",
+          "組織並主持每週的討論會，探討各行各業趨勢、案例研究與學術論文研討會。"
+      ],
+      "responsibilities": [
+          "協助學生準備研究報告，保持內容的透明性、完整性與學術嚴謹性。",
+          "促進關於資訊管理領域當前議題的討論，鼓勵批判性分析與知識分享。",
+          "協調客座講座與產業講座，讓學生接觸研究主題的實際應用。",
+          "管理研討會的後勤事務，包括排定時間、線上線下宣傳、發放資料及提供虛擬/混合式會議的技術支援。"
+      ],
+      "achievements": [
+          "組織了一場由學生主導的小型學術會議，讓與會者在專業環境中展現其研究成果。",
+          "引入了使用數位工具的互動問答系統，提升研討會中的參與與互動。"
+      ]
+    },
+    {
+      "name": "國立暨南國際大學",
+      "position": "網站與系統管理員 – IT Administrator in Information Management",
+      "location_type": "On-site",
+      "location": "TW",
+      "url": "https://www.linkedin.com/school/%E5%9C%8B%E7%AB%8B%E6%9A%A8%E5%8D%97%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%AD%B8/",
+      "startDate": "2025-06-01",
+      "endDate": null,
+      "summary": "管理 Linux 伺服器 及 WordPress 網站，提供 IT 技術支援，解決師生的系統與網路問題，提高系統可用性。",
+      "highlights": [
+          "進行伺服器定期備份、效能強化，並協助學校資安政策落實。",
+          "與計算機中心、其他管理人員合作，保證系統正常運作。"
+      ],
+      "responsibilities": [
+          "維護系上 Linux 伺服器，進行系統更新與安全強化，監控伺服器資源使用情況，診斷與解決系統錯誤或網路異常。",
+          "維護系上官方網站，處理網站故障與漏洞修復、發布公告、更新文章、上傳教學與活動資訊。",
+          "盤點系上 IT 設備，協助資訊資產管理，配合學校計算機中心進行 資安政策落實、漏洞修補、帳號權限管理。",
+          "設定 防火牆規則、伺服器存取控制、加強登入驗證機制，提升資安防護等級，並為系辦人員與教授提供 IT 技術支援，解決電腦或網路相關問題。"
+      ],
+      "achievements": [
+          "暫無"
+      ]
+    } 
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "icon": "simple-icons:html5",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "icon": "ri:css3-fill",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "icon": "simple-icons:javascript",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "icon": "simple-icons:typescript",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Vue",
+      "icon": "mdi:vuejs",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Astro",
+      "icon": "simple-icons:astro",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Node",
+      "icon": "ri:nodejs-line",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "JavaScript",
+        "Server"
+      ]
+    },
+    {
+      "name": "Java",
+      "icon": "ri:java-line",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Backend"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "icon": "simple-icons:mysql",
+      "level": "Beginner",
+      "keywords": [
+        "Backend",
+        "Databases",
+        "SQL",
+        "Relational Database"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "simple-icons:postgresql",
+      "level": "Beginner",
+      "keywords": [
+        "Backend",
+        "Databases",
+        "SQL",
+        "Relational Database"
+      ]
+    },
+    {
+      "name": "Git",
+      "icon": "mdi:git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "icon": "mdi:github",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code",
+        "Git"
+      ]
+    },
+    {
+      "name": "Docker",
+      "icon": "mdi:docker",
+      "level": "Beginner",
+      "keywords": [
+        "Virtual Environments",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Python",
+      "icon": "simple-icons:python",
+      "level": "Beginner",
+      "keywords": [
+        "Scripting",
+        "Automation",
+        "Web Development"
+      ]
+    },
+    {
+      "name": "Shell",
+      "icon": "simple-icons:shell",
+      "level": "Beginner",
+      "keywords": [
+        "Scripting",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Linux",
+      "icon": "simple-icons:linux",
+      "level": "Beginner",
+      "keywords": [
+        "OS",
+        "Scripting",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Postman",
+      "icon": "simple-icons:postman",
+      "level": "Intermediate",
+      "keywords": [
+        "API",
+        "Testing",
+        "Web Development",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Figma",
+      "icon": "simple-icons:figma",
+      "level": "Beginner",
+      "keywords": [
+        "Prototyping",
+        "Web Development",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Flutter",
+      "icon": "simple-icons:flutter",
+      "level": "Beginner",
+      "keywords": [
+        "Prototyping",
+        "Web Development",
+        "Frontend"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Mandarin",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Limited working proficiency"
+    }
+  ],
+  "projects": [
+    {
+      "name": "FPGA_snake_game_contest",
+      "isActive": true,
+      "description": "透過 Verilog 將一款經典的遊戲呈現在 FPGA 上使用 Cyclone III EP3C10E144C8 晶片",
+      "highlights": [
+        "在8x8的LED全彩點矩陣上，隨機生成蛇的食物",
+        "暫停功能、超過8分就將蛇的身體變色",
+        "用七段顯示器 16-bits LED 顯示玩家遊玩時間"
+      ],
+      "stack": {
+        "Verilog": "simple-icons:velog"
+      },
+      "github": "https://github.com/Kaiwhat/BobyGamer",
+      "url": "https://github.com/wzray07/FPGA_snake_game_contest"
+    },
+    {
+      "name": "Exploit_market ",
+      "isActive": true,
+      "description": "Creating an MVC application using NODEjs and MariaDB",
+      "highlights": [
+        "可以新增/修改/刪除自己的拍賣品 (包含名稱、說明內容、與底價)",
+        "可以查看所有人的拍賣品清單(產品名稱、目前最高價)，並可進一步查看拍賣品的內容與所有出價紀錄",
+        "可以對物品提出競標價格"
+      ],
+      "stack": {
+        "HTML5": "simple-icons:html5",
+        "CSS": "simple-icons:css",
+        "Javascript": "simple-icons:javascript",
+        "Node.js": "simple-icons:nodedotjs",
+        "EJS": "simple-icons:ejs",
+        "MariaDB": "simple-icons:mariadb"
+      },
+      "github": "https://github.com/Kaiwhat/Exploit_market",
+      "url": ""
+    },
+    {
+      "name": "BobyGamer",
+      "isActive": true,
+      "description": "結合 Mediapipe 與 OpenCV，基於 Python 開發一個利用肢體動作進行遊戲操控的系統",
+      "highlights": [
+        "Mediapipe 識別身體關鍵點（肩膀、嘴巴）並判斷手勢",
+        "檢測到的手勢通過 pyautogui libary 觸發對應的鍵盤輸入",
+        "透過 Websocket 技術讓遊戲可異地多人對戰"
+      ],
+      "stack": {
+        "Python": "simple-icons:python",
+        "OpenCV": "simple-icons:opencv",
+        "MySQL": "simple-icons:mysql",
+        "Flask": "simple-icons:flask",
+        "Socket.io": "simple-icons:socketdotio",
+        "Docker": "simple-icons:docker",
+        "Node.js": "simple-icons:nodedotjs",
+        "Vim": "simple-icons:vim"
+      },
+      "github": "https://github.com/Kaiwhat/BobyGamer",
+      "url": ""
+    },
+    {
+      "name": "Calculator",
+      "isActive": true,
+      "description": "Creating an MVC application using NODEjs and MariaDB",
+      "highlights": [],
+      "stack": {
+        "Flutter": "simple-icons:flutter"
+      },
+      "github": "https://github.com/Kaiwhat/calculator",
+      "url": ""
+    }
+  ]
+}
