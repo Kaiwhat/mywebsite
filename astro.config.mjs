@@ -5,10 +5,12 @@ import astroIcon from 'astro-icon';
 import mdx from '@astrojs/mdx';
 import playformCompress from "@playform/compress";
 import vercel from "@astrojs/vercel/serverless";
+import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [
+    react(),
     tailwind(),
     mdx(),
     astroIcon({

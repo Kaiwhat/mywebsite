@@ -1,0 +1,48 @@
+---
+import { Image } from "astro:assets";
+import heroImage from "../../public/profile.png";
+import { basics } from "@cv";
+---
+
+<section class="py-5 px-4 sm:py-10 lg:py-16">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+            <div>
+                <p class="text-lg text-offset">
+                    {basics?.label}
+                </p>
+
+                <h1 class="text-2xl font-bold sm:text-4xl lg:text-5xl mt-3">
+                    {basics?.name}
+                </h1>
+
+                <p class="mt-5 text-base sm:text-xl">
+                    {basics?.summary}
+                </p>
+
+                <div class="mt-10 sm:flex sm:items-center sm:space-x-8">
+                    <a
+                        href=`https://drive.google.com/file/d/1rA4IaZBrxBxWXJqk9Dv6N9GppN3rH7CT/view?usp=sharing`
+                        title="Download CV"
+                        download
+                        class="inline-flex items-center justify-center px-10 py-4 text-base text-white
+                            font-semibold transition-all duration-200 rounded
+                            bg-primary hover:bg-secondary focus:bg-secondary"
+                        role="button"
+                    >
+                        Download CV
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative flex justify-center">
+                <Image
+                    class="w-full md:max-w-md lg:max-w-md"
+                    src={heroImage}
+                    loading="eager"
+                    alt="Astro Resume Theme - Paul Smith"
+                />
+            </div>
+        </div>
+    </div>
+</section>

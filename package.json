@@ -14,6 +14,7 @@
   "dependencies": {
     "@astrojs/markdown-remark": "^5.1.1",
     "@astrojs/mdx": "^3.1.2",
+    "@astrojs/react": "^4.3.0",
     "@astrojs/tailwind": "^5.1.1",
     "@astrojs/vercel": "^7.8.1",
     "@fancyapps/ui": "^5.0.36",
@@ -21,12 +22,19 @@
     "@iconify-json/ri": "^1.2.5",
     "@iconify-json/simple-icons": "^1.2.18",
     "@playform/compress": "^0.1.1",
+    "@react-three/drei": "^10.7.4",
+    "@react-three/fiber": "^9.3.0",
     "@tailwindcss/typography": "^0.5.13",
+    "@types/react": "^19.1.11",
+    "@types/three": "^0.179.0",
     "astro": "4.15.11",
     "astro-icon": "^1.1.1",
     "gsap": "^3.12.5",
     "hotkeypad": "0.1.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "tailwindcss": "^3.4.13",
+    "three": "^0.179.1",
     "typescript": "^5.6.2"
   },
   "devDependencies": {

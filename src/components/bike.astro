@@ -1,0 +1,37 @@
+---
+import BikeCanvas from "@/components/models/BikeCanvas.tsx";
+import Layout from "@layouts/Layout.astro";
+import Section from "@/components/Section.astro";
+import Navigation from "@/components/Navigation.astro";
+
+import { basics } from "@cv";
+const { name } = basics;
+---
+
+<div
+    class="relative grid h-full max-w-full gap-12 p-8 max-sm:py-16 min-sm:w-[90vh] min-sm:h-[50vh] md:grid-cols-[60%_40%] md:min-h-[90vh] md:grid-cols-2 md:p-16 xl:gap-24 text-skin-base print:gap-4"
+>
+    <BikeCanvas client:visible />
+    <div
+        class="slide-enter space-y-6 ease-in print:grid print:grid-cols-5 print:space-y-0"
+    >
+        <Section className={Astro.props.className} title="Bike-Info">
+            <ul style="padding-left: 10px;">
+                <li>2007 Hartford HD-200S</li>
+                <li>Engine: 197cc single-cylinder</li>
+                <li>Max Power: 14.3 ps</li>
+                <li>Weight: 132 kg</li>
+            </ul>
+        </Section>
+        <Section className={Astro.props.className} title="Model-Info">
+            <ul style="padding-left: 10px;">
+                <li>161 objects</li>
+                <li>808,361 vertices</li>
+                <li>1,523,052 edges</li>
+                <li>720,648 faces</li>
+                <li>1,442,105 triangles</li>
+                <li>Author: Kaiwha</li>
+            </ul>
+        </Section>
+    </div>
+</div>
