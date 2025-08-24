@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "deploy:vercel": "vercel deploy",
-    "deploy:cloudflare": "astro build && echo $CLOUDFLARE_API_TOKEN && wrangler pages deploy .vercel/output/static --project-name=portfolio"
+    "deploy:cloudflare": "astro build && echo $CLOUDFLARE_API_TOKEN && wrangler pages deploy .vercel/output/static --project-name=MyWebsite"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^5.1.1",
