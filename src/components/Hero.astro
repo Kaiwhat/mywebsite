@@ -1,48 +1,108 @@
 ---
+import Section from "@/components/Section.astro";
 import { Image } from "astro:assets";
 import heroImage from "../../public/profile.png";
 import { basics } from "@cv";
+const {
+    name,
+    animated_secondary_initial_label,
+    animated_main_label,
+    animated_secondary_final_label,
+    summary,
+} = basics;
 ---
 
-<section class="py-5 px-4 sm:py-10 lg:py-16">
-    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
-            <div>
-                <p class="text-lg text-offset">
-                    {basics?.label}
+<div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+        <div>
+            <Section
+                className={Astro.props.className}
+                title="Hey, good to see you"
+            >
+                <div class="overflow-hidden mt-1">
+                    <div
+                        class="font-roboto-condensed font-bold lowercase text-xl lg:text-[1rem] lg:leading-[1rem]"
+                    >
+                        <div
+                            class="group/subtitle relative flex gap-1 hover:gap-5 active:gap-5 transition-all"
+                        >
+                            <div
+                                class="transition-all duration-450 ease-in-out group-hover/subtitle:-translate-y-16"
+                            >
+                                <p
+                                    class="font-roboto-condensed font-medium lowercase text-xl lg:text-[1rem] lg:leading-[1rem] text-skin-muted"
+                                >
+                                    {animated_secondary_initial_label}
+                                </p>
+                            </div>
+                            <div
+                                class="absolute inset-x-0 top-0 w-max translate-y-16 transition-all duration-450 ease-in-out group-hover/subtitle:translate-y-0"
+                            >
+                                <p
+                                    class="font-roboto-condensed font-bold lowercase text-xl lg:text-[1rem] lg:leading-[1rem] bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"
+                                >
+                                    {animated_secondary_final_label}
+                                </p>
+                            </div>
+                            <p
+                                class="font-roboto-condensed font-medium lowercase text-xl lg:text-[1rem] lg:leading-[1rem] text-skin-muted"
+                            >
+                                {animated_main_label}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <h1 class="hover:hover-grad-text font-semibold">{name}</h1>
+                </div>
+
+                <p
+                    class="mt-5 text-base sm:text-xl text-lg text-skin-muted print:text-lg"
+                >
+                    {summary}
                 </p>
 
-                <h1 class="text-2xl font-bold sm:text-4xl lg:text-5xl mt-3">
-                    {basics?.name}
-                </h1>
-
-                <p class="mt-5 text-base sm:text-xl">
-                    {basics?.summary}
-                </p>
-
-                <div class="mt-10 sm:flex sm:items-center sm:space-x-8">
+                <div
+                    class="mt-10 flex flex-col space-y-4 sm:flex-row sm:items-center sm:space-x-8 sm:space-y-0"
+                >
                     <a
-                        href=`https://drive.google.com/file/d/1rA4IaZBrxBxWXJqk9Dv6N9GppN3rH7CT/view?usp=sharing`
-                        title="Download CV"
-                        download
+                        href="/about"
+                        title="More about me"
                         class="inline-flex items-center justify-center px-10 py-4 text-base text-white
                             font-semibold transition-all duration-200 rounded
                             bg-primary hover:bg-secondary focus:bg-secondary"
                         role="button"
                     >
-                        Download CV
+                        More about me
+                    </a>
+                    <a
+                        href=`https://drive.google.com/file/d/1rA4IaZBrxBxWXJqk9Dv6N9GppN3rH7CT/view?usp=sharing`
+                        title="Get my resume"
+                        class="inline-flex items-center justify-center px-10 py-4 text-base text-white
+                            font-semibold transition-all duration-200 rounded
+                            bg-primary hover:bg-secondary focus:bg-secondary"
+                        role="button"
+                    >
+                        Get my resume
                     </a>
                 </div>
-            </div>
+            </Section>
+        </div>
 
-            <div class="relative flex justify-center">
-                <Image
-                    class="w-full md:max-w-md lg:max-w-md"
-                    src={heroImage}
-                    loading="eager"
-                    alt="Astro Resume Theme - Paul Smith"
-                />
-            </div>
+        <div class="relative flex justify-center">
+            <Image
+                class="w-full md:max-w-md lg:max-w-md"
+                src={heroImage}
+                loading="eager"
+                alt=""
+            />
         </div>
     </div>
-</section>
+</div>
+
+<style>
+    h1 {
+        @apply text-3xl text-skin-muted print:text-3xl;
+    }
+</style>
