@@ -6,7 +6,9 @@ import Section from "@/components/Section.astro";
 <div
     class="relative grid h-full max-w-full gap-12 p-8 max-sm:py-16 min-sm:w-[90vh] min-sm:h-[50vh] md:grid-cols-[40%_60%] md:min-h-[90vh] md:grid-cols-2 md:p-16 xl:gap-24 text-skin-base print:gap-4"
 >
-    <div class="bg-white border-gray-200 dark:bg-gray-900 h-full w-full grid">
+    <div
+        class="bg-white border-gray-200 dark:bg-gray-900 h-[50vh] w-full grid lg:h-full"
+    >
         <HumanCanvas client:visible url="/models/waving.glb" />
     </div>
 
