@@ -1,0 +1,100 @@
+---
+import HumanCanvas from "@/components/models/HumanCanvas.tsx";
+import Section from "@/components/Section.astro";
+import emailjs from "@emailjs/browser";
+
+// service_lpqo3b7
+// template_5545k1s
+// NbDe5O27sUyrJsT0t
+
+const handleSubmit = async (event: {
+    preventDefault: () => void;
+    target: HTMLFormElement | undefined;
+}) => {
+    event.preventDefault();
+
+    const formData = new FormData(event.target);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+        await emailjs.send(
+            import.meta.env.PUBLIC_EMAILJS_SERVICE_ID,
+            import.meta.env.PUBLIC_EMAILJS_TEMPLATE_ID,
+            {
+                name: data.name,
+                email: data.email,
+                message: data.message,
+            },
+            import.meta.env.PUBLIC_EMAILJS_PUBLIC_KEY,
+        );
+
+        alert("訊息已寄出！");
+    } catch (error) {
+        console.error(error);
+        alert("寄送失敗，請稍後再試");
+    }
+};
+---
+
+<div
+    class="relative grid h-full max-w-full gap-12 p-8 max-sm:py-16 min-sm:w-[90vh] min-sm:h-[50vh] md:grid-cols-[40%_60%] md:min-h-[90vh] md:grid-cols-2 md:p-16 xl:gap-24 text-skin-base print:gap-4"
+>
+    <div class="bg-white border-gray-200 dark:bg-gray-900 h-full w-full grid">
+        <HumanCanvas client:visible url="/models/salute.glb" />
+    </div>
+
+    <div
+        class="slide-enter space-y-6 ease-in print:grid print:grid-cols-5 print:space-y-0"
+    >
+        <Section className={Astro.props.className} title="Contact Me">
+            <div
+                class="relative h-full w-3/4 flex items-center justify-center flex-col"
+            >
+                <div class="contact-container">
+                    <h3 class="head-text">Let's talk</h3>
+                    <p class="text-lg text-white-600 mt-3">
+                        Whether you're looking to build a new website, improve
+                        your existing platform, or bring an unique project to
+                        life, I'm here to help
+                    </p>
+                    <form
+                        onsubmit={handleSubmit}
+                        class="flex flex-col space-y-4 mt-12"
+                    >
+                        <span class="field-label">Full name</span>
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Kaiwha"
+                            required
+                            class="field-input p-2"
+                        />
+                        <span class="field-label">Email</span>
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="a@contact.me"
+                            required
+                            class="field-input p-2"
+                        />
+                        <span class="field-label">Message</span>
+                        <textarea
+                            name="message"
+                            placeholder="We have a job for u ouo"
+                            rows="4"
+                            required
+                            class="field-input p-2"></textarea>
+                        <button
+                            type="submit"
+                            class="inline-flex items-center justify-center px-10 py-4 text-base text-white
+                            font-semibold transition-all duration-200 rounded
+                            bg-primary hover:bg-secondary focus:bg-secondary"
+                        >
+                            送出</button
+                        >
+                    </form>
+                </div>
+            </div>
+        </Section>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+---
+import HumanCanvas from "@/components/models/HumanCanvas.tsx";
+import Section from "@/components/Section.astro";
+---
+
+<div
+    class="relative grid h-full max-w-full gap-12 p-8 max-sm:py-16 min-sm:w-[90vh] min-sm:h-[50vh] md:grid-cols-[40%_60%] md:min-h-[90vh] md:grid-cols-2 md:p-16 xl:gap-24 text-skin-base print:gap-4"
+>
+    <div class="bg-white border-gray-200 dark:bg-gray-900 h-full w-full grid">
+        <HumanCanvas client:visible url="/models/waving.glb" />
+    </div>
+
+    <div
+        class="slide-enter space-y-6 ease-in print:grid print:grid-cols-5 print:space-y-0"
+    >
+        <Section className={Astro.props.className} title="Quick facts about me">
+            <ul style="padding-left: 10px;">
+                <li>職引國際股份有限公司 資訊技術專員</li>
+                <li>國立暨南國際大學 資訊管理系 網站與系統管理員</li>
+                <li>在大學多項課程擔任 教學助理</li>
+                <li>GDG on campus NCNU 2025' 26' Lead</li>
+            </ul>
+        </Section>
+        <Section className={Astro.props.className} title="Fun facts about me">
+            <ul style="padding-left: 10px;">
+                <li>現在興趣是打高爾夫，想體驗看看騎馬、衝浪、跳傘</li>
+                <li>最喜歡的名人是基努李維 Keanu Reeves</li>
+                <li>撞過最貴的車是 BMW X7，還沒出社會差點就負債 40 萬</li>
+                <li>
+                    三歲前家神三太子常常下凡找我玩，把我家人嚇得半死，但大家似乎很喜歡這個故事ww
+                </li>
+                <li>
+                    曾經把殺蟲劑拿反噴到自己，所以現在看到蟑螂就會 PTSD 肚子痛
+                </li>
+                <li>跟魷魚遊戲導演同一天生日（…什麼鬼ww笑到不行</li>
+            </ul>
+        </Section>
+    </div>
+</div>
