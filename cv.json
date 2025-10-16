@@ -5,11 +5,11 @@
     "label": "Software Developer",
     "animated_main_label": "developer",
     "animated_secondary_initial_label": "software",
-    "animated_secondary_final_label": "front_end",
+    "animated_secondary_final_label": "frontend",
     "image": "/pfp.webp",
     "bike": "/bike.glb",
     "email": "i@kaiwha.com",
-    "url": "https://www.linkedin.com/in/arielfalcon/",
+    "url": "https://www.linkedin.com/in/kaiwha/",
     "summary": "I'm a student, an engineer, an Emergency Medical Technician (EMT)✚. I see myself as a healer. Whether as a responder in medical emergencies, or simply as a friend.",
     "theme": "red",
     "location": {
@@ -44,7 +44,7 @@
         "network": "Email",
         "icon": "ri:mail-fill",
         "color": "#D44638",
-        "username": "Ariel González Falcón",
+        "username": "Kaiwha",
         "url": "mailto:i@kaiwha.com"
       }
     ]
@@ -85,13 +85,13 @@
     {
       "name": "全國資安社團暨社群幹部研習營",
       "date": "2023-08-21",
-      "url": "https://www.im.ncnu.edu.tw/2024/05/02/%E6%81%AD%E8%B3%80%E6%9C%AC%E7%B3%BB%E5%BC%B5%E4%B8%AD%E6%BC%A2%E3%80%81%E7%B0%A1%E9%BD%8A%E5%90%9B%E3%80%81%E5%90%B3%E6%A5%B7%E8%B3%80%E6%A6%AE%E7%8D%B2%E6%95%99%E8%82%B2%E9%83%A8%E3%80%8Cu-start/",
+      "url": "https://www.facebook.com/AIS3tw",
       "issuer": "教育部資訊安全人才培育計畫, 教育部, 臺灣"
     },
     {
       "name": "全國資安社團暨社群幹部研習營",
       "date": "2024-08-21",
-      "url": "https://www.wangyingfoundation.org/news-detail54-0.htm",
+      "url": "https://www.facebook.com/AIS3tw",
       "issuer": "教育部資訊安全人才培育計畫, 教育部, 臺灣"
     },
     {
@@ -99,6 +99,18 @@
       "date": "2025-03-08",
       "url": "https://sitcon.org/2025/",
       "issuer": "Students’ Information Technology Conference, 臺灣"
+    },
+    {
+      "name": "AIS3 MyFirstCTF 2025",
+      "date": "2025-03-08",
+      "url": "https://ais3.org/mfctf/",
+      "issuer": "教育部資訊安全人才培育計畫, 教育部, 臺灣"
+    },
+    {
+      "name": "全國資安社團暨社群幹部研習營",
+      "date": "2025-08-21",
+      "url": "https://www.facebook.com/AIS3tw",
+      "issuer": "教育部資訊安全人才培育計畫, 教育部, 臺灣"
     }
   ],
   "contributor": [
@@ -209,74 +221,26 @@
     },
     {
       "name": "國立暨南國際大學",
-      "position": "教學助理 – 大學社會責任實踐 (USR) 計畫",
+      "position": "教學助理",
       "location_type": "On-site",
       "location": "TW",
       "url": "https://www.linkedin.com/school/%E5%9C%8B%E7%AB%8B%E6%9A%A8%E5%8D%97%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%AD%B8/",
-      "startDate": "2024-09-01",
+      "startDate": "2024-02-01",
       "endDate": null,
-      "summary": "執行大學社會責任實踐 (USR) 計畫，致力於水資源保育與永續發展，並協助促進學生、教師、地方政府與產業之間的跨域合作，以落實永續發展計畫。",
+      "summary": "協助 6 門課程(含 Linux 系統管理實務、網路攻防與原理、企業資訊通訊與網路、資料結構與演算法、專題討論 Seminar 及 USR 計畫)",
       "highlights": [
         "帶領學生參與水資源保育、永續能源實踐及對環境的保護付諸行動。",
         "協調學生、教師、地方社區與政府機關之間的跨領域與跨部門合作。"
       ],
       "responsibilities": [
-        "協助籌辦與水資源永續相關的工作坊、實地考察及社區參與活動。",
-        "設計關於水資源保育與埔里排洪道週邊之經濟發展平衡的討論。"
+        "針對精選 Linux 主題進行授課，提供課後技術支援與專案指導。",
+        "帶領伺服器部署與自動化實作（systemd、cron、rsync, SSH、Apache/Nginx、Docker），並教授 Git/GitHub 協作與版本控制。",
+        "帶領 zenmap, nmap, dnswalk, dig&trace, smtp-user-enum, sslscan,hping, vulmap, zap 實戰"
       ],
       "achievements": [
-        "領導不同細索學生組成團隊進行點子發想，探討水資源保育對地方產業的影響。",
-        "組織社區展開計畫，促成學生與地方政府及產業領袖交流，推廣永續水資源管理。",
-        "協助學生透過撰寫提案及產業合作提昇永續發展專案之可行性。"
-      ]
-    },
-    {
-      "name": "國立暨南國際大學",
-      "position": "教學助理 – 企業資訊網路",
-      "location_type": "On-site",
-      "location": "TW",
-      "url": "https://www.linkedin.com/school/%E5%9C%8B%E7%AB%8B%E6%9A%A8%E5%8D%97%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%AD%B8/",
-      "startDate": "2025-02-01",
-      "endDate": null,
-      "summary": "協助教授《企業資訊網路》課程，提供網路基礎設施、網路安全原則及系統管理實作的支援。幫助學生理解網路協議、安全機制與風險管理等核心概念。",
-      "highlights": [
-        "指導學生設定安全的網路基礎設施，包括 Iptables、netfilter 之設定。",
-        "設計並評分實作實驗，涵蓋網路安全、TCP/IP 協定與入侵檢測系統等主題。"
-      ],
-      "responsibilities": [
-        "主持實驗課與教學輔導，講解基礎網路概念與安全措施。",
-        "協助學生排除網路故障，包括封包分析與防火牆設定問題。",
-        "設計並審核關於網路協議、加密技術與網路防禦策略的作業。",
-        "與教授合作強化課程內容，提升實作實驗的學習體驗。"
-      ],
-      "achievements": [
-        "實施互動式網路安全模擬，讓學生練習威脅緩解技術。",
-        "開發真實案例研究，分析網路安全漏洞並應用對應的防禦策略。",
-        "建立知識共享筆記，讓學生能夠合作討論並解決問題與培養 Knowledge Management。"
-      ]
-    },
-    {
-      "name": "國立暨南國際大學",
-      "position": "教學助理 – Seminar in Information Management",
-      "location_type": "On-site",
-      "location": "TW",
-      "url": "https://www.linkedin.com/school/%E5%9C%8B%E7%AB%8B%E6%9A%A8%E5%8D%97%E5%9C%8B%E9%9A%9B%E5%A4%A7%E5%AD%B8/",
-      "startDate": "2025-02-01",
-      "endDate": null,
-      "summary": "在一門聚焦於資訊管理領域新興議題的研討課程中，促進學術討論與研究報告呈現。為學生提供研究方法論、批判性思維與有效的報告技巧指導。",
-      "highlights": [
-        "學註學生發想研究主題並結構化報告內容。",
-        "組織並主持每週的討論會，探討各行各業趨勢、案例研究與學術論文研討會。"
-      ],
-      "responsibilities": [
-        "協助學生準備研究報告，保持內容的透明性、完整性與學術嚴謹性。",
-        "促進關於資訊管理領域當前議題的討論，鼓勵批判性分析與知識分享。",
-        "協調客座講座與產業講座，讓學生接觸研究主題的實際應用。",
-        "管理研討會的後勤事務，包括排定時間、線上線下宣傳、發放資料及提供虛擬/混合式會議的技術支援。"
-      ],
-      "achievements": [
-        "組織了一場由學生主導的小型學術會議，讓與會者在專業環境中展現其研究成果。",
-        "引入了使用數位工具的互動問答系統，提升研討會中的參與與互動。"
+        "累積指導逾 200 位學生",
+        "規劃課程實作與專案，協助超過 20 個專案團隊完成從設計到部署。",
+        "自修課至今持續撰寫 TCP/IP Networking 筆記，近四萬字的筆記，涵蓋 TCP/IP 和網路安全的核心內容，協助同學快速掌握網路核心概念"
       ]
     },
     {
@@ -299,7 +263,8 @@
         "設定 防火牆規則、伺服器存取控制、加強登入驗證機制，提升資安防護等級，並為系辦人員與教授提供 IT 技術支援，解決電腦或網路相關問題。"
       ],
       "achievements": [
-        "暫無"
+        "部屬並客製化當學期課表",
+        "開發新版資管系畢業學分審核系統，預計可省下七成人工時間。"
       ]
     }
   ],
@@ -578,6 +543,71 @@
       },
       "github": "https://github.com/Kaiwhat/calculator",
       "url": ""
+    }
+  ],
+  "blogs": [
+    {
+      "name": "企業資訊通訊與網路",
+      "description": "約四萬字的課程筆記",
+      "highlights": [
+        "OSI 與 TCP/IP 模型比較：分層功能與封包型態（Fragments, Frames, Packets）",
+        "Network & Security Management：QoS、SNMP、Plan–Protect–Respond 模型",
+        "LAN & Wireless LANs：Ethernet、802.11 WLAN、WPA2 安全標準、NFC、Bluetooth",
+        "TCP/IP Internetworking：Routing、NAT、DNS、ICMP、IPSec、SSL/TLS VPN",
+        "Carrier WANs：LAN vs MAN vs WAN、電信骨幹網路"
+      ],
+      "url": "https://hackmd.io/@KaiWhat/SkZ2TCI6T"
+    },
+    {
+      "name": "FHS 檔案系統階層標準",
+      "description": "Practical Linux System Administration 課程講義",
+      "highlights": [
+        "介紹標準的檔案系統層次結構，讓學生了解檔案應該在那些位置",
+        "Linux 常用指令"
+      ],
+      "stack": {
+        "Ubuntu": "simple-icons:ubuntu"
+      },
+      "url": "https://hackmd.io/@KaiWhat/HyQxHUSa0"
+    },
+    {
+      "name": "TCP/IP",
+      "description": "Practical Linux System Administration 課程講義",
+      "highlights": [
+        "OSI 與 TCP/IP 模型比較：分層功能與封包型態（Fragments, Frames, Packets）",
+        "TCP/IP Internetworking：Routing、NAT、DNS、ICMP、IPSec、SSL/TLS VPN"
+      ],
+      "stack": {
+        "Ubuntu": "simple-icons:ubuntu"
+      },
+      "url": "https://hackmd.io/ejtvJZauQdyvbdbaQNjZ2Q"
+    },
+    {
+      "name": "Firewall & Web Server",
+      "description": "Practical Linux System Administration 課程講義",
+      "highlights": [
+        "Netfilter & iptables 的封包處理政策及如何編輯 routing chain 上的規則，DMZ 實做教學",
+        "Apache2 & Lighttpd & Nginx configuration"
+      ],
+      "stack": {
+        "Ubuntu": "simple-icons:ubuntu",
+        "Nginx": "simple-icons:nginx",
+        "Apache": "simple-icons:apache"
+      },
+      "url": "https://hackmd.io/@KaiWhat/r1GCF1kiyx"
+    },
+    {
+      "name": "遠端連線與傳輸",
+      "description": "Practical Linux System Administration 課程講義",
+      "highlights": [
+        "SSH 連線完整流程，涵蓋 Key Exchange，及利用公鑰進行無密碼登入",
+        "FTP & SFTP & rsync 基礎操作",
+        "SSH Tunneling 做 Port forwarding"
+      ],
+      "stack": {
+        "Ubuntu": "simple-icons:ubuntu"
+      },
+      "url": "https://hackmd.io/zBe5v7vqSHyZZOTObnlbNA"
     }
   ]
 }
